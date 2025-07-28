@@ -1,11 +1,21 @@
-/*  your css code here. If applicable */
-body{
-padding:20px;
-background-color: #f5f5f5;
+/* Main container */
+.testimonial-container {
+	background-color: #f5f5f5;
+	padding: 20px;
 }
-.test{
-padding: 10px;
-background-color: white;
+
+/* Individual testimonial box */
+.test {
+	background-color: white;
+	border: 1px solid #ccc;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+/* Author name */
+.name {
+	text-align: right;
+	font-style: italic;
 }
 .name{
 text-align: right;
